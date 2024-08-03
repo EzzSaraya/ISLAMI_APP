@@ -1,6 +1,5 @@
 import "package:flutter/material.dart";
 import 'package:islami_app/app_colors.dart';
-
 class MyThemeData {
   static final ThemeData LightTheme = ThemeData(
     primaryColor: AppColors.PrimaryLightColor,
