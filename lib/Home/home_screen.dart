@@ -3,8 +3,8 @@ import 'package:islami_app/Home/Hadeth/hadeth_tab.dart';
 import 'package:islami_app/Home/Quran/quran_Tab.dart';
 import 'package:islami_app/Home/Radio/radio_tab.dart';
 import 'package:islami_app/Home/Sebha/sebha_tab.dart';
-import 'package:islami_app/my_theme_data.dart';
 import 'package:islami_app/app_colors.dart';
+import 'package:islami_app/my_theme_data.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routename = "home_screen";
