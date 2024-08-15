@@ -1,0 +1,16 @@
+{
+  "app_title": "Islami",
+  "quran": "Quran",
+  "sebha": "Sebha",
+  "hadeth": "Hadeth",
+  "radio": "Radio",
+  "settings": "Settings",
+  "surah_name": "Surah Name",
+  "hadeth_name": "Hadeth Name",
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "theme": "Theme",
+  "light": "Light",
+  "dark": "Dark"
+}
