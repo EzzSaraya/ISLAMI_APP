@@ -4,7 +4,6 @@ import 'package:islami_app/providers/config_app_provider.dart';
 import 'package:provider/provider.dart';
 
 import '../../app_colors.dart';
-import '../../my_theme_data.dart';
 import 'hadeth_tab.dart'; // Corrected import statement
 
 class HadethDetails extends StatefulWidget {
@@ -23,10 +22,18 @@ class _HadethDetailsState extends State<HadethDetails> {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        iconTheme: IconThemeData(
+            color: provider.isdark()
+                ? AppColors.YellowColor
+                : AppColors.BlackColor,
+            size: 35),
         centerTitle: true,
         title: Text(
           args.title,
-          style: MyThemeData.LightTheme.textTheme.bodyLarge,
+          style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+              color: provider.isdark()
+                  ? AppColors.YellowColor
+                  : AppColors.BlackColor),
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,

@@ -99,6 +99,9 @@ class _settingstabState extends State<settingstab> {
 
   void ShowLanguageBottom() {
     showModalBottomSheet(
+        backgroundColor: provider.isdark()
+            ? AppColors.PrimaryDarkColor
+            : AppColors.WhiteColor,
         context: context, builder: (context) => languagebottomsheet());
   }
 
