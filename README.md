@@ -1,16 +1,5 @@
 # islami_app
 
-A new Flutter project.
+A new Flutter project that is  the *Islami* mobile app. This app features essential tabs for the Quran, Sebha, Hadith, and Radio, providing users with a rich, interactive experience. Contributed with  state management to ensure smooth and responsive user interactions, and implemented full localization, offering support for both English and Arabic. Additionally,  integrateingtheming options, allowing users to choose between dark and light modes.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
